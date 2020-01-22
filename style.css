@@ -1,0 +1,52 @@
+.innerswitch {
+    display: flex;
+    position: relative;
+    left: 0;
+    background-color: red;
+    width: 45px;
+    height: 100%;
+    transition: ease-in 0.2s left;
+    cursor: pointer;
+    border: 2px white;
+    border-radius: 30px;
+}
+
+.outerswitch {
+    display: flex;
+    border: 1px solid black;
+    background-color: rgba(111, 115, 116, 0.24);
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+p {
+    color: white;
+    margin-left: 10px;
+}
+
+#darkmode {
+    position: absolute;
+
+    color: #333;
+    background-color: #FFF;
+    display: flex;
+    font-size: 40px;
+}
+
+#menu {
+    position: fixed;
+    right: -70px;
+    top: 10px; 
+    transition: right 1s;
+}
+button {
+    display: flex;
+    border: 1px solid black;
+    background-color: rgba(111, 115, 116, 0.24);
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    cursor: pointer;
+}

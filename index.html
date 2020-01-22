@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2divs</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="switch.js"></script>
+    <div id="darkmode"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga consequatur expedita cumque non. Nulla, dolorem quos, porro earum distinctio iusto illum odio praesentium ratione nam repellat at, necessitatibus tempore.</div>
+    <div id="menu" onmouseover="MenuToggle()">
+        <div class="outerswitch">
+            <div class="innerswitch" onclick="toggleOn()"><p>OFF</p></div>       
+        </div>
+
+        <div id="switch2" class="outerswitch">
+            <div class="innerswitch" onclick="toggleOn2()"><p id="p2">OFF</p></div>       
+        </div>
+
+        <div id="switch3" class="outerswitch">
+            <div class="innerswitch" onclick="toggleOn3()"><p id="p3">OFF</p></div>       
+        </div>
+
+        <div><button onclick="reset()">RESET</button></div>
+    </div>
+
+</body>
+
+</html>
